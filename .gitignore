@@ -1,0 +1,15 @@
+# Python venv and cache
+venv/
+__pycache__/
+*.pyc
+
+# Sensitive config
+config/config.yaml
+
+# Ignore everything except source and docs
+!README.md
+!requirements.txt
+!main.py
+!bot/
+!utils/
+!docs/
